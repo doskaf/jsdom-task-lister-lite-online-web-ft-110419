@@ -14,8 +14,8 @@ submitButton.addEventListener("click", function(event) {
 
 let buttons = document.getElementsByTagName("BUTTON");
 
-for (let i = 0; i < imageArray.length; i++) {
-  imageArray[i].addEventListener("click", function() {
-    console.log("you clicked region number " + i);
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function() {
+    console.log("this works!");
   });
 }
