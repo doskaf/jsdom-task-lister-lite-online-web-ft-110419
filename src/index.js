@@ -7,7 +7,8 @@ submitButton.addEventListener("click", function(event) {
   node.appendChild(textnode);
   document.getElementById('tasks').appendChild(node);
   let button = document.createElement("BUTTON");
-  
+  button.innerText = "X";
+  node.appendChild(button);
   event.preventDefault();
 }, false);
 
