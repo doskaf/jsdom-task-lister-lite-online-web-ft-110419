@@ -16,7 +16,7 @@ let buttons = document.getElementsByTagName("BUTTON");
 
 var array = ['all', 'what', 'you', 'want'];
 
-function buttonFuntionality () {
+function buttonFunctionality () {
     for (var i = 0; i < array.length; i++)
     document.getElementById(array[i]).addEventListener('click', eventFunction);
 };
