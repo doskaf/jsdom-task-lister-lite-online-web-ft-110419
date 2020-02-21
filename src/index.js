@@ -14,7 +14,9 @@ submitButton.addEventListener("click", function(event) {
 
 let buttons = document.getElementsByTagName("BUTTON");
 
-var array = ['all', 'what', 'you', 'want'];
+function deleteTask {
+  
+}
 
 function buttonFunctionality () {
     for (var i = 0; i < buttons.length; i++)
