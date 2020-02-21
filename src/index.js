@@ -19,6 +19,6 @@ function deleteTask {
 }
 
 function buttonFunctionality () {
-    for (var i = 0; i < buttons.length; i++)
-    document.getElementById(buttons[i]).addEventListener('click', eventFunction);
-};
+  for (var i = 0; i < buttons.length; i++)
+  document.getElementById(buttons[i]).addEventListener('click', deleteTask);
+}
