@@ -1,9 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
-
 let newTaskBox = document.getElementById("new-task-description");
-
 let submitButton = document.getElementsByTagName("input")[1];
 
 submitButton.addEventListener("click", function(event) {
