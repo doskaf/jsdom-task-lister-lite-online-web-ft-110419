@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 });
 
-let inputBox = ;
+let taskDescription = ;
 
 let submitButton = document.getElementsByTagName("input")[1];
 
