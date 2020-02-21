@@ -6,6 +6,7 @@ submitButton.addEventListener("click", function(event) {
   let textnode = document.createTextNode(newTaskBox.value);
   node.appendChild(textnode);
   document.getElementById('tasks').appendChild(node);
+  let bu
   event.preventDefault();
 }, false);
 
