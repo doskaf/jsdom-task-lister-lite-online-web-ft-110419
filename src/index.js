@@ -11,14 +11,3 @@ submitButton.addEventListener("click", function(event) {
   node.appendChild(button);
   event.preventDefault();
 }, false);
-
-let buttons = document.getElementsByTagName("BUTTON");
-
-function deleteTask() {
-  console.log('Wow!');
-}
-
-function buttonFunctionality() {
-  for (var i = 0; i < buttons.length; i++)
-  document.getElementById(buttons[i]).addEventListener('click', deleteTask);
-}
