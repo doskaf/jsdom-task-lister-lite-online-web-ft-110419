@@ -9,4 +9,4 @@ submitButton.addEventListener("click", function(event) {
   event.preventDefault();
 }, false);
 
-
+let button = document.getElementsByTagName("BUTTON")[0];
