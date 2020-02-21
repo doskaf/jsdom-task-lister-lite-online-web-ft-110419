@@ -15,7 +15,7 @@ submitButton.addEventListener("click", function(event) {
 let buttons = document.getElementsByTagName("BUTTON");
 
 function deleteTask {
-  
+  console.log('Wow!');
 }
 
 function buttonFunctionality () {
