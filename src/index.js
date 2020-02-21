@@ -14,6 +14,8 @@ submitButton.addEventListener("click", function(event) {
 
 let buttons = document.getElementsByTagName("BUTTON");
 
-buttons.addEventListener("click", function(event) {
-  console.log('This works!')
-});
+for (let i = 0; i < buttons.length; i++) {
+  button[i].addEventListener("click", function(event) {
+    console.log('This works!')
+  });
+}
