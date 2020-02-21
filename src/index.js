@@ -12,4 +12,8 @@ submitButton.addEventListener("click", function(event) {
   event.preventDefault();
 }, false);
 
-let button = document.getElementsByTagName("BUTTON")[0];
+let buttons = document.getElementsByTagName("BUTTON");
+
+buttons.addEventListener("click", function(event) {
+  console.log('This works!')
+});
